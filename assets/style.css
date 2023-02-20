@@ -201,8 +201,6 @@ a:hover, a:focus {
 .bg-black {
     background-color: #000000 !important;
 }
-/* social media icons */
-
 
 /* footer */
 footer {
@@ -214,7 +212,6 @@ footer {
     margin-top: 0px;
     text-align: center;
 }
-
 .f-text {
     color: white;
 }
@@ -234,7 +231,6 @@ footer {
     border: 4px solid;
     border-color: grey;
 }
-
 .btn:hover, .btn:focus, .btn:active{
     color: white;
     border-color: #6bb89d;
