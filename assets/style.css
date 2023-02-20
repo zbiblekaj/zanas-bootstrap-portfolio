@@ -80,7 +80,7 @@ a:hover, a:focus {
 
 .contact-section .card {
     border: 0;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid pink;
 }
 
 .contact-section .card h4 {
@@ -91,23 +91,28 @@ a:hover, a:focus {
 }
 
 .contact-section .card hr {
-    border-color: #64a19d;
+    border-color: pink;
     border-width: 0.25rem;
     width: 3rem;
 }
 
 .contact-section .social {
     margin-top: 5rem;
+    height: 100px
 }
 
 .contact-section .social a {
     text-align: center;
     height: 3rem;
     width: 3rem;
-    background: rgba(255, 255, 255, 0.1);
+    background: white;
     border-radius: 100%;
     line-height: 3rem;
     color: rgba(255, 255, 255, 0.3);
+}
+
+.mx-2 img {
+    height: 30px;
 }
 
 .contact-section .social a:hover {
@@ -120,6 +125,8 @@ a:hover, a:focus {
 .bg-black {
     background-color: #000000 !important;
 }
+/* social media icons */
+
 
 /* footer */
 footer {
