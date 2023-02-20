@@ -119,6 +119,10 @@ a:hover, a:focus {
     border-bottom: 1rem solid #6bb89d;
 }
 
+.card img {
+    height: 250px;
+}
+
 .contact-section .card h4 {
     font-size: 1.5rem;
     font-weight: 900; 
