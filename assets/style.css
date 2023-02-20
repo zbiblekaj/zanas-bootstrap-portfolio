@@ -45,6 +45,8 @@ a:hover, a:focus {
 
 .navbar {
     background-color: rgb(0,0,0, 0.7);
+    transition: all .35s;
+    letter-spacing: 2px;
 }
 
 .navbar-brand {
