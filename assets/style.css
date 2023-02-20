@@ -101,20 +101,20 @@ a:hover, a:focus {
 
 .contact-section .card {
     border: 0;
-    border-bottom: 0.25rem solid #6bb89d;
+    border-bottom: 1rem solid #6bb89d;
 }
 
 .contact-section .card h4 {
-    font-size: 0.8rem;
-    font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1.5rem;
+    font-weight: 900; 
     text-transform: uppercase;
-    letter-spacing: 0.15rem;
+    letter-spacing: 1rem;
 }
 
 .contact-section .card hr {
     border-color: #6bb89d;
     border-width: 0.25rem;
-    width: 3rem;
+    width: 100%;
 }
 
 .contact-section .social {
@@ -180,22 +180,10 @@ footer {
     border-color: grey;
 }
 
-.btn-outline {
-    color: white;
-
-}
-
 .btn:hover, .btn:focus, .btn:active{
     color: white;
     border-color: #6bb89d;
     background-color: #6bb89d;
     border: 4px solid;
     border-color: #34765f;
-}
-
-
-
-.btn-xl {
-    font-size: 11px;
-    padding: 15px 45px;
 }
