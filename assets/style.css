@@ -29,6 +29,10 @@ a:hover, a:focus {
     color: #6bb89d;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* nav bar */
 .navbar-nav {
     margin-left: auto;
