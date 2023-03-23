@@ -1,0 +1,246 @@
+/*fonts*/
+@font-face {
+    font-family:'Print clearly';
+    src: url(./print-clearly/print_clearly_tt.ttf);
+}
+* {
+    font-family: Print clearly;
+    font-size: large;
+}
+h1, h5{
+    font-family: Print clearly;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+/* general styling */
+html, body {
+    width: 100%;
+    height: 100%;
+}
+body {
+    font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+}
+a {
+    color: #6bb89d;
+    transition: all .35s;
+}
+a:hover, a:focus {
+    color: #6bb89d;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* nav bar */
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0px !important;
+}
+.navbar-toggler-icon {
+    background-color: #000000;
+}
+
+.navbar-toggler {
+    background-color: grey;
+}
+
+.navbar {
+    background-color: rgb(0,0,0, 0.7);
+    transition: all .35s;
+    letter-spacing: 2px;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+/*styling the jumbotron*/
+.jumbotron {
+    height: 550px;
+    background-image: url(../assets/images/hero-lightgrey.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.jumbotron h1 {
+    margin-top: 30px;
+
+}
+
+/* styling modal*/
+.modal-header h5 {
+    font-size: 2rem;
+}
+.modal-body {
+    font-size: 1.25rem;
+}
+
+/* styling the work section*/
+.cardContainer {
+    margin-bottom: 15px;
+}
+.card {
+    margin: 0 auto;
+}
+
+/*skills section*/
+.skills {
+    height: 300px;
+    border-top: 15px #34765f solid;
+    border-bottom: 15px #34765f solid;
+}
+.skills h1 {
+    margin-top: 20px;
+    font-size: 100px;
+    color: #34765f;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.skills ul {
+    list-style-type: none;
+    margin-bottom: 50px;
+}
+
+.skills li {
+    display: inline;
+    color: #34765f;
+    font-size: 20px;
+    padding: 30px;
+    font-weight: bolder;
+}
+
+/* Signup section */
+.signup-section h1 {
+    text-align: center;
+    color: white;
+    padding-bottom: 50px;
+
+}
+.signup-section {
+    padding: 10rem 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("../assets/images/hero-jumbo-3.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.signup-section .form-inline input {
+    box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+    padding: 1.25rem 2rem;
+    height: auto;
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    border: 0;
+}
+
+.contact-section {
+    padding-top: 5rem;
+}
+
+.contact-section .card {
+    border: 0;
+    border-bottom: 1rem solid #6bb89d;
+}
+
+.contact-section .card:hover {
+    border: 10px solid #34765f;
+    transition: 0.5s;
+}
+
+.card img {
+    height: 250px;
+}
+
+.contact-section .card h4 {
+    font-size: 1.5rem;
+    font-weight: 900; 
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+}
+
+.contact-section .card hr {
+    border-color: #6bb89d;
+    border-width: 0.25rem;
+    width: 100%;
+}
+
+.contact-section .social {
+    margin-top: 5rem;
+    height: 100px
+}
+
+.contact-section .social a {
+    text-align: center;
+    height: 3rem;
+    width: 3rem;
+    background: white;
+    border-radius: 100%;
+    line-height: 3rem;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.mx-2 img {
+    height: 30px;
+}
+.contact-section .social a:hover {
+    background-color: #34765f;
+    transition: 0.5s;
+}
+
+.contact-section .social a:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+.contact-section .social a:active {
+    color: #fff;
+}
+
+.bg-black {
+    background-color: #000000 !important;
+}
+
+/* footer */
+footer {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: rgb(0,0,0, 0.7);
+    margin-top: 0px;
+    text-align: center;
+}
+.f-text {
+    color: white;
+}
+
+/* buttons */
+.btn {
+    box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+    padding: 0.75rem 1.25rem;
+    font-size: 80%;
+    border: 0;
+    border-radius: 300px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: black;
+    font-size: large;
+    font-weight: bolder;
+    border: 4px solid;
+    border-color: grey;
+}
+.btn:hover, .btn:focus, .btn:active{
+    color: white;
+    border-color: #6bb89d;
+    background-color: #6bb89d;
+    border: 4px solid;
+    border-color: #34765f;
+}
+
+

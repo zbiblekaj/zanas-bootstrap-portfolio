@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+    <head>
+        <!-- tags required by bootstrap -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <!-- Personal CSS -->
+        <link rel="stylesheet" href="../zanas-bootstrap-portfolio/assets/style.css">
+        <!--title of my website-->
+        <title>Zana's Bootstrap Portfolio</title>
+    </head>
+    
+    <body>
+        <!--Nav Bar-->
+        <nav class="navbar fixed-top navbar-expand-lg">
+            <a class="navbar-brand js-scroll-trigger" href="#jumbotron">Home</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#jumbotron">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#work">My Work</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#signup">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="jumbotron jumbotron-fluid" id="jumbotron">
+            <div class="container-fluid">
+                <h1 class="display-4">Zana Biblekaj</h1>
+                <p class="lead">Welcome to my portfolio. My name is Zana, 22, residing in London, a front-end developer in training. I was introduced to design through working closely with our frontend and backend developers in my previous role as an Operations Executive, in which I realised my passion and interest for that field.
+                <br><br>
+                I have created this webpage to best portray my skillset, including some work that I have created and my contact details.</p>
+                <a class="btn btn-primary btn-lg" role="button" data-toggle="modal" data-target="#exampleModal">Learn more</a>
+            </div>
+        </div>  
+
+        <div class="container-fluid" id="work">
+            <div class="row">
+                <div class="cardContainer col-sm-12 col-md-4">
+                    <div class="card h-100">
+                        <img src="../zanas-bootstrap-portfolio/assets/images/geometric-pattern-spiral-neon.png" class="card-img-top" alt="gemoetric-img-blue&pink">
+                        <div class="card-body">
+                            <h5 class="card-title">Horiseon Marketing</h5>
+                            <p class="card-text">HTML & CSS</p>
+                            <a href="https://zbiblekaj.github.io/horiseon-marketing-website/" class="btn btn-primary" target="_blank">Check it out</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cardContainer col-sm-12 col-md-4">
+                    <div class="card h-100">
+                        <img src="../zanas-bootstrap-portfolio/assets/images/geometric-lines-black-red.jpg" class="card-img-top" alt="geometric-img-pink&purple">
+                        <div class="card-body">
+                            <h5 class="card-title">Console Finances</h5>
+                            <p class="card-text">JavaScript</p>
+                            <a href="#" class="btn btn-primary">Check it out</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cardContainer col-sm-12 col-md-4">
+                    <div class="card h-100">
+                        <img src="../zanas-bootstrap-portfolio/assets/images/geometric-img-3.jpeg" class="card-img-top" alt="gemoetric-img-neon">
+                        <div class="card-body">
+                            <h5 class="card-title">Password Generator</h5>
+                            <p class="card-text">Web APIs</p>
+                            <a href="#" class="btn btn-primary">Check it out</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cardContainer col-sm-12 col-md-4">
+                    <div class="card h-100">
+                        <img src="../zanas-bootstrap-portfolio/assets/images/marble-image-4.jpeg" class="card-img-top" alt="marble-img-black&grey">
+                        <div class="card-body">
+                            <h5 class="card-title">Coding Quiz</h5>
+                            <p class="card-text">Third Party APIs</p>
+                            <a href="#" class="btn btn-primary">Check it out</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cardContainer col-sm-12 col-md-4">
+                    <div class="card h-100">
+                        <img src="../zanas-bootstrap-portfolio/assets/images/neon-lines-6.jpeg" class="card-img-top" alt="mirror-img-multicoloured">
+                        <div class="card-body">
+                            <h5 class="card-title">The backrooms</h5>
+                            <p class="card-text">HTML & CSS</p>
+                            <a href="https://zbiblekaj.github.io/the-backrooms/" class="btn btn-primary">Check it out</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cardContainer col-sm-12 col-md-4">
+                    <div class="card h-100">
+                        <img src="../zanas-bootstrap-portfolio/assets/images/butterflies-img-5.jpeg" class="card-img-top" alt="butterfly-img-grey">
+                        <div class="card-body">
+                            <h5 class="card-title">Portfolio</h5>
+                            <p class="card-text">HTML & CSS</p>
+                            <a href="https://zbiblekaj.github.io/zanas-portfolio/" target="_blank" class="btn btn-primary">Check it out</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- skills -->
+        <section class="skills">
+            <h1>SKILLS</h1>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>BootStrap</li>
+                <li>GitHub</li>
+            </ul>
+        </section>
+
+        <!-- form -->
+        <section class="signup-section" id="signup">
+            <h1>Contact Me</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-lg-8 mx-auto text-center">
+                        <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+                        <h2 class="text-white mb-5">Request a call!</h2>
+                        <form class="form-inline d-flex">
+                            <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" type="email" placeholder="Enter email address..." />
+                            <button class="btn btn-primary mx-auto" type="submit">Go</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact-->
+        <section class="contact-section bg-black">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Address</h4>
+                                <hr class="my-4" />
+                                <div class="small text-black-50">Camden, London, United Kingdom</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-envelope text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Email</h4>
+                                <hr class="my-4" />
+                                <div class="small text-black-50"><a href="mailto:zanabiblekaj@gmail.com" target="_blank">zanabiblekaj@gmail.com</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Phone</h4>
+                                <hr class="my-4" />
+                                <div class="small text-black-50"><a href="tel:+447462793911" target="_blank">(+44) 762 793 911</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="social d-flex justify-content-center">
+                    <a class="mx-2" href="https://twitter.com/ZBiblekaj" target="_blank"><i class="fab fa-twitter"></i><img src="../zanas-bootstrap-portfolio/assets/images/twitter.png" alt="twitter icon"></a>
+                    <a class="mx-2" href="https://www.linkedin.com/in/zana-biblekaj-a01859231/" target="_blank"><i class="fab fa-linkedin"><img src="../zanas-bootstrap-portfolio/assets/images/linkedin.png" alt="linkedin icon"></i></a>
+                    <a class="mx-2" href="https://github.com/zbiblekaj" target="_blank"><i class="fab fa-github"></i><img src="../zanas-bootstrap-portfolio/assets/images/github.png" alt="github icon"></a>
+                </div>
+            </div>
+        </section>
+        
+        <!--footer-->
+        <footer class="footer">
+            <div class="container">
+                <span class="f-text">All rights reserved © Zana Biblekaj</span>
+            </div>
+        </footer>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">About Me</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        To access more information about my experience and skills, please click the button below.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <a href="./assets/Zana Biblekaj CV.pdf" target="_blank" alt="zanas cv"><button type="button" class="btn btn-primary">My CV</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    </body>
+</html>
+
+
+
